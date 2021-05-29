@@ -1,0 +1,59 @@
+[
+  {
+    "id": 1,
+    "title": "Babolat Pure strike tennis raquet",
+    "price": 14835,
+    "description": "The new Pure Strike is for striker players who speed up the ball & need responsiveness to increase their precision. An optimized string pattern with wider spacing of the crosses provides more power. Hybrid Frame Technology gives you the unique combination of power and control. With an unstrung weight of 305gms this racquet is for the big boys of tennis. With a wider spacing this racquet offers great power and spin potential. The ball triggers off the string bed loaded with a lot of fizz. An ideal racquet for a player who wants to break into a professional league.",
+    "category": "equipment",
+    "image": "https://res.cloudinary.com/dssvrf9oz/image/upload/v1621077184/image-removebg-preview_9_w16sy8.png"
+  },
+  {
+    "id": 2,
+    "title": "Adidas t-shirt",
+    "price": 1000,
+    "description": "Subtle and stylish adidas Club Tennis polo for men. Made with AEROREADY which battles the heat with breathable and quick-dry fabrics, so you're always cool and dry during the game.",
+    "category": "clothing",
+    "image": "https://res.cloudinary.com/dssvrf9oz/image/upload/v1621570189/adidas-court-t-shirt-removebg-preview_wdra81.png"
+  },
+  {
+    "id": 3,
+    "title": "Wilson US open tennis balls",
+    "price": 500,
+    "description": "WILSON U.S. Open tennis ball is known for its superior playability, consistency and classic performance. Preferred on hard court outdoor surfaces. Premium high-grade Extra duty felt with excellent durability and is a super choice for matches and training session. Made with Premium high grade extra duty felt Optimal performance and durability on hard courts Pressurized tennis balls Preferred on Hard court surfaces suitable for all matches",
+    "category": "equipment",
+    "image": "https://res.cloudinary.com/dssvrf9oz/image/upload/v1621090182/image-removebg-preview_10_jyybef.png"
+  },
+  {
+    "id": 4,
+    "title": "Adidas barricade tennis shoes",
+    "price": 9999,
+    "description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
+    "category": "shoes",
+    "image": "https://res.cloudinary.com/dssvrf9oz/image/upload/v1621090287/92287-DEFAULT-m-removebg-preview_y9yeun.png"
+  },
+
+  {
+    "id": 5,
+    "title": "Babolat Pure strike tennis Bag",
+    "price": 9000,
+    "description": "Built for the needs of the competitive player, the Babolat Pure Strike Racket Holder x 12 Kit Bag from Babolat is thermally insulated to maintain string tension and features a hard shell pocket to protect your accessories. The bag boasts 3 compartments with space for up to 12 rackets. The new, bigger opening makes accessing the contents easier, while the backpack straps make carrying for comfortable. - 3 x compartments (2 of which are insulated) - Bigger opening - Hard shell pocket - Backpack straps - Capacity: 67L - Dimensions: 75 x 48 x 32 cm.",
+    "category": "equipment",
+    "image": "https://res.cloudinary.com/dssvrf9oz/image/upload/v1621092017/71uynN-sI_L._AC_SS450_-removebg-preview_ciefe0.png"
+  },
+  {
+    "id": 6,
+    "title": "adidas 3-Stripes Boy's Tennis Shorts",
+    "price": 2000,
+    "description": "The adidas 3 Stripes Boy's Tennis Shorts fit close to the body without being snug. The recycled polyester fabric is breathable and",
+    "category": "clothing",
+    "image": "https://res.cloudinary.com/dssvrf9oz/image/upload/v1621576507/dv1378-adidas_3-stripes_club_boy_s_short-removebg-preview_rvprji.png"
+  },
+  {
+    "id": 7,
+    "title": "UNISEX ADIDAS TRAINING BASEBALL CAP",
+    "price": 800,
+    "description": "The adidas 3 Stripes Boy's Tennis Shorts fit close to the body without being snug. The recycled polyester fabric is breathable and",
+    "category": "clothing",
+    "image": "https://res.cloudinary.com/dssvrf9oz/image/upload/v1621577294/Unisex_TRAINING_CAP_CG1782_1-removebg-preview_w4p6yb.png"
+  }
+]
