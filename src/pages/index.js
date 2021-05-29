@@ -6,6 +6,7 @@ import { getSession } from "next-auth/client";
 import { useEffect } from "react";
 import { db, firebaseConfig } from "../../firebase";
 import Head from "next/head";
+import { permissions } from "../../permissions";
 
 export default function Home({ session, products }) {
   useEffect(() => {
@@ -20,6 +21,8 @@ export default function Home({ session, products }) {
       );
     }
   }, [session?.user]);
+
+  console.log(permissions);
 
   return (
     <div className="bg-[#10acd3] dark:bg-gray-800">
@@ -37,7 +40,6 @@ export default function Home({ session, products }) {
 
       <main className="max-w-screen-2xl mx-auto">
         <Banner />
-
         <ProductFeed products={products} />
       </main>
     </div>

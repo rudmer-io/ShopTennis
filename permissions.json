@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "shop-tennis-3e73b",
+  "private_key_id": "28f549092c75569f4b13a9a47eb873d8e66ae71e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQD0b8z56UNRNpgm\nRAQRYq2ymODgDUsN7++r036MiCCmAP6cf4zlha0tjx6Bqw0Kd+oSTvkMK2LQvyuE\n68KDjPipOV4zNS9VtydhYtV3rZmhsIS+s/yqeZXrC4gILyt5SXFnUGE88nhtnXVi\nfcadX8XSAiWw8ibz5/Y2V+08wYdAKPmoaj3goEbylV0ZJgMXCp0pPOLcqMMl+2s5\n3uANcUbJyM151lfF+qRw4TvKipe1jcmQl5WKP5wemMeFXr8wfeFNJlJFMoYDPOd5\nk3J6OT6syRnubCRAur0NWvzIvFm5Kwfqxr1mBobZE0nY+uYN67W8b8ks+9BwZS0j\ne2yD3j2lAgMBAAECggEABoQQb70DGWAeMC7x+NCrlq4ymGZiUM3LksYBgpeCX0p5\nfwx7YgbtNeCxzH0VzOijabeHNgbWDIB8FX//YGhanJA17aGGUH+gYh0zWYxcIw5E\ni5zaqGSzVV+qUaWIQCRwDHP9E5XXFfzzixuVNs69xDpgbNYXqbrOOmafoVX7V/9y\nSaJ0AxqY7pCCMqVpieo88mIVaLYYqMMIrR9P+2PwWIUfu4SayXYfk5gi1d2nxKNY\njja/wdLHN3BumRttJhGAxi6JOSXTs86JYJT4gHB2RmGKEDFjf9J9YDOqCNi6agwU\nhmqSd56R/6oyWc5p+B4DZxZCVo7PQE7gFnN2bjw3wQKBgQD+S+LHw9FTXrB+/LoN\njTOGMCqq3fDcUdADUDE7mp2RRtYPwOWj2LPLGy52+QXrNzkFOsQ5/tYHcNrG6Wma\nZvtInr593hya+CRBmWGKfPvPwdkbgmfFXZpOeT/UpBf35l1IHHRof2Jm47g0TbX3\nUx/esezDLv1jPyBjK9MD6WapVQKBgQD2EwFujrmNRW6lq/BBQASu1zd4NU12KaVC\nq2bZidhKU2bC51fR9Q5tO10g1+TbDJoM73+K8ExEfbrF6lnscckajyXUJ+u8ypXD\ndXcPM3bFZcM8Jzmb0M+pPQ6qofdIpuquAJHMl/H97WoHVFo2mfl7u978fnwu5aMZ\nyD7rW80DEQKBgG2wdBDxIWDRzlXoU6S2zIvMSQtNErEmRRC4zZPFPMRGht1iumtz\ndRJeFivRfMEaH+lmkO/nQZESF/yHADtOwoNvngGTBkm+UX1OWOmwwbm7Bxg7puFW\nX9ILsQHbCk+vOXt6cqgEkoCJJ5LAFoapf2zC2LrUkQ33U9QTOkFMszDFAoGAAO5h\newGfQiGZIZdc+WI8oky+MP5CpMfTkEUFxpz27JEUOniVpH3A6DjpSU6H1yxdCN9/\nJA90um2fX1BbtsFXeXpBMmRUSAqcNnkjUjNnp6eS7Y9YcHaB0qogfBTQ0r2O9cma\nw6Nvjv5vAEgZb0t13jn/xgTUg3jq/RX85vcZ94ECgYEAmQWlcALD6t8dRE07VHgL\nX6K2TGmn6L+q70RUSLO6I4eQ5nBFTqvneot0O6rsVPEF6+ngE+vUujdRIHsOFSaZ\naxuG0T76JXVzJj6YhSi8S9OR5Be3X0cj0ypEqXjW11vneeXOQMIH6arQp3bONpIs\n4UmSNdBFAOS5DefF1yTDvNM=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-p116z@shop-tennis-3e73b.iam.gserviceaccount.com",
+  "client_id": "110581529697560997086",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-p116z%40shop-tennis-3e73b.iam.gserviceaccount.com"
+}
