@@ -57,7 +57,7 @@ function Header() {
         </svg>
         <h2
           onClick={() => router.push("/checkout")}
-          className="backdrop-filter shadow-xl dark:shadow-none bg-white bg-opacity-75 mr-2 dark:bg-gray-900 text- font-semibold cursor-pointer dark:text-gray-200 rounded-full absolute top-5 right-10 px-[7px]"
+          className="backdrop-filter shadow-xl dark:shadow-none bg-white bg-opacity-75 mr-2 dark:bg-gray-900 text- font-semibold cursor-pointer dark:text-gray-200 rounded-full absolute top-5 right-10 px-[8px]"
         >
           {items.length}
         </h2>
