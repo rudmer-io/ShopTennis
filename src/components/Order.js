@@ -1,6 +1,7 @@
 import Currency from "react-currency-formatter";
 import moment from "moment";
 import { groupBy } from "lodash";
+import Image from "next/image";
 
 function Order({ id, amount, amountShipping, images, timestamp, items }) {
   const groupedImages = Object.values(groupBy(images));

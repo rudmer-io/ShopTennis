@@ -7,6 +7,8 @@ import { useRouter } from "next/router";
 import { addToBasket } from "../slices/basketSlice";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Image from "next/image";
+
 
 const Product = ({
   id,
@@ -43,7 +45,7 @@ const Product = ({
       <p className="dark:text-gray-100 absolute top-2 right-3 text-xs font-semibold italic text-indigo-900 ">
         {category}
       </p>
-      <img
+      <Image
         onClick={() => router.push(`/Product/${id}`)}
         src={image}
         width={300}
