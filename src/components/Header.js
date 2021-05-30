@@ -17,9 +17,9 @@ function Header() {
       <Image
         onClick={() => router.push("/")}
         objectfit="contain"
-        width={270}
-        height={75}
-        src="https://res.cloudinary.com/dssvrf9oz/image/upload/v1622298755/image-removebg-preview_19_lvtnz9.png"
+        width={90}
+        height={60}
+        src="https://res.cloudinary.com/dssvrf9oz/image/upload/v1622372782/image-removebg-preview_20_grp1mc.png"
         alt="logo"
         className="cursor-pointer"
       />
@@ -39,12 +39,7 @@ function Header() {
         <h3 onClick={!session ? signIn : signOut} className="link">
           {!session ? <p>Sign in</p> : <p>Hi, {session.user.name}</p>}
         </h3>
-        <h2
-          onClick={() => router.push("/checkout")}
-          className="mr-2 text-lg font-semibold cursor-pointer dark:text-gray-200"
-        >
-          {items.length}
-        </h2>
+
         <svg
           onClick={() => router.push("/checkout")}
           xmlns="http://www.w3.org/2000/svg"
@@ -60,6 +55,12 @@ function Header() {
             d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"
           />
         </svg>
+        <h2
+          onClick={() => router.push("/checkout")}
+          className="backdrop-filter shadow-xl dark:shadow-none bg-white bg-opacity-75 mr-2 dark:bg-gray-900 text- font-semibold cursor-pointer dark:text-gray-200 rounded-full absolute top-5 right-10 px-[7px]"
+        >
+          {items.length}
+        </h2>
         {colorTheme === "light" ? (
           <LightBulbIcon
             onClick={() => setTheme("light")}
