@@ -8,7 +8,7 @@ function category({ path, Allproducts }) {
   });
 
   return (
-    <div className="bg-[#10acd3] min-h-screen dark:bg-gray-800">
+    <div className="bg-[#10acd3] dark:bg-gray-800">
       <Header />
       <h1 className="backdrop-filter bg-white bg-opacity-25 dark:text-white dark:bg-opacity-10 shadow-xl dark:shadow-none flex flex-col p-5 space-y-50 mt-5 mb-5 text-xl font-semibold rounded-lg ml-5 mr-5">
         {`${path} section`}

@@ -21,14 +21,14 @@ function Header() {
         height={60}
         src="https://res.cloudinary.com/dssvrf9oz/image/upload/v1622372782/image-removebg-preview_20_grp1mc.png"
         alt="logo"
-        className="cursor-pointer"
+        className="cursor-pointer hidden sm:inline-flex"
       />
 
       <div className="flex">
-        <h3 className="link" onClick={() => router.push("/contact")}>
-          Contact
-        </h3>
-        <h3 className="link" onClick={() => router.push("/orders")}>
+        <h3
+          className="link hidden sm:inline-flex"
+          onClick={() => router.push("/orders")}
+        >
           Orders
         </h3>
         <h3 className="link" onClick={() => router.push("/category")}>
@@ -36,8 +36,25 @@ function Header() {
         </h3>
       </div>
       <div className="flex">
-        <h3 onClick={!session ? signIn : signOut} className="link">
+        <h3
+          onClick={!session ? signIn : signOut}
+          className="link hidden sm:inline-flex"
+        >
           {!session ? <p>Sign in</p> : <p>Hi, {session.user.name}</p>}
+        </h3>
+        <h3
+          onClick={!session ? signIn : signOut}
+          className="link sm:hidden inline-flex"
+        >
+          {!session ? (
+            <p>Sign in</p>
+          ) : (
+            <img
+              src={session.user.image}
+              alt="user"
+              className="h-10 w-10 rounded-full"
+            />
+          )}
         </h3>
 
         <svg
@@ -57,7 +74,7 @@ function Header() {
         </svg>
         <h2
           onClick={() => router.push("/checkout")}
-          className="backdrop-filter shadow-xl dark:shadow-none bg-white bg-opacity-75 mr-2 dark:bg-gray-900 text- font-semibold cursor-pointer dark:text-gray-200 rounded-full absolute top-5 right-10 px-[8px]"
+          className="backdrop-filter shadow-xl dark:shadow-none  bg-white bg-opacity-75 mr-2 dark:bg-gray-900 text- font-semibold cursor-pointer dark:text-gray-200 rounded-full absolute top-5 right-10 px-[8px]"
         >
           {items.length}
         </h2>

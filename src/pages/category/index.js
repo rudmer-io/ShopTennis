@@ -4,7 +4,7 @@ import Header from "../../components/Header";
 
 function categoryPage({ categories }) {
   return (
-    <div className="bg-[#10acd3] dark:bg-gray-800 min-h-screen">
+    <div className="bg-[#10acd3] dark:bg-gray-800">
       <Header />
       <div className="flex flex-wrap">
         {categories.map((category) => (
