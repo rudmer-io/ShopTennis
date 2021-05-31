@@ -8,6 +8,7 @@ import { addToBasket } from "../../slices/basketSlice";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Header from "../../components/Header";
+import Footer from "../../components/Footer";
 import CategorizedProduct from "../../components/CategorizedProduct";
 import { ToastContainer } from "react-toastify";
 import Head from "next/head";
@@ -117,6 +118,7 @@ function product({ currentProduct, Allproducts }) {
           ))}
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
