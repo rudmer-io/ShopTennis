@@ -62,6 +62,11 @@ export default async (req, res) => {
     },
     line_items: transformedItems,
     mode: "payment",
+    discounts: [
+      {
+        coupon: "SHOP20",
+      },
+    ],
     success_url: `${process.env.HOST}/success`,
     cancel_url: `${process.env.HOST}/checkout`,
     metadata: {
@@ -70,7 +75,6 @@ export default async (req, res) => {
       images: JSON.stringify(items.map((item) => item.image)),
     },
   });
-
 
   res.status(200).json({ id: session.id });
 };
